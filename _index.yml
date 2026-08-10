@@ -1,0 +1,28 @@
+---
+indexpage:
+  title: NetApp Console note di rilascio per la distribuzione locale
+  summary: Scopri le modifiche più recenti alle funzionalità e ai servizi dati inclusi
+    nella distribuzione locale di NetApp Console. Per una cronologia completa delle
+    versioni, vai all'insieme completo delle note di rilascio per ciascun servizio.
+  keywords: release notes, enhancements, what's new, netapp console local deployment,
+    console local deployment, local, netapp data services
+  lead: Queste note di rilascio descrivono i recenti miglioramenti apportati alla
+    distribuzione locale di NetApp Console e ai servizi dati che supporta. Link alle
+    note di rilascio complete per ciascun servizio.
+  tiles:
+  - title: Novità
+    links:
+    - title: Modifiche recenti nella distribuzione locale di NetApp Console
+      url: whats-new.html
+  - title: Note di rilascio per servizio
+    links:
+    - title: Indice delle note di rilascio
+      url: release-notes-index.html
+  - title: Blog e community
+    links:
+    - title: NetApp Console distribuzione locale
+      url: https://www.netapp.com/console
+    - title: NetApp Data Services
+      url: https://www.netapp.com/data-services/
+    - title: Community NetApp
+      url: https://community.netapp.com/
