@@ -28,7 +28,7 @@ Direttiva non risolta in <stdin> - include::_include/console-local.adoc[] :level
 [[introducing-netapp-console-local-deployment]]
 === Presentazione della distribuzione locale di NetApp Console
 
-https://docs.netapp.com/us-en/console-local/netapp-console-local.html["Scopri la distribuzione locale di NetApp Console"].
+https://docs.netapp.com/us-en/console-local/concept-netapp-console-local.html["Scopri la distribuzione locale di NetApp Console"].
 
 
 
@@ -54,17 +54,6 @@ In questa versione, VMware workloads introduce i seguenti miglioramenti:
 
 
 Per dettagli sulla protezione dei carichi di lavoro VMware, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro VMware"].
-
-
-
-==== Miglioramenti dei carichi di lavoro Oracle Database
-
-In questa versione, Oracle Database workloads introduce i seguenti miglioramenti:
-
-* *Ripristino e clonazione di database collegabili (PDB)*: Backup and Recovery per il servizio NetApp Console ora supporta il ripristino e la clonazione di database collegabili.
-
-
-Per informazioni dettagliate sulla protezione dei carichi di lavoro Oracle Database, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro Oracle Database"].
 
 
 
