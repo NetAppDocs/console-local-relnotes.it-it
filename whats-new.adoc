@@ -244,21 +244,3 @@ In questa versione, i carichi di lavoro ONTAP Volumes introducono i seguenti mig
 
 
 Per informazioni dettagliate sulla protezione dei carichi di lavoro di ONTAP Volumes, fare riferimento a  https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Panoramica dei carichi di lavoro di Protect ONTAP Volumes"].
-
-
-
-[[13-july-2026]]
-== 13 luglio 2026
-
-
-
-[[backup-and-recovery]]
-=== Backup and Recovery
-
-
-
-==== Supporto multi-bucket migliorato per tutti i carichi di lavoro
-
-NetApp Backup and Recovery ora supporta la protezione dei carichi di lavoro all'interno di un sistema con un massimo di 100 bucket distribuiti su diversi provider cloud. Per supportare più di 6 bucket per sistema è necessario ONTAP 9.19.1 o versioni successive.
-
-Per dettagli su NetApp Backup e ripristino, consulta  https://docs.netapp.com/us-en/data-services-backup-recovery/concept-backup-to-cloud.html["Scopri NetApp Backup and Recovery"].
