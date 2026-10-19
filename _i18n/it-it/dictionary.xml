@@ -127,4 +127,6 @@
   <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">Per i dettagli sulla protezione dei carichi di lavoro di Microsoft SQL Server, consulta<block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>.</block>
   <block id="e019cb225a4644922cdd06575b099710" category="section-title">12 ottobre 2026</block>
   <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*Filtro personalizzato per intervallo di date in Job Monitor*: Ora puoi cercare i job degli ultimi 90 giorni selezionando una data di inizio e una di fine personalizzate da un calendario in Job Monitor.</block>
+  <block id="b81cecd98ea4b4f80df7b99bd8f7480e" category="paragraph">*Supporto per Oracle Data Guard*: NetApp Backup and Recovery ora supporta l'utilizzo di gruppi di protezione per proteggere i database primari e di standby che utilizzano Oracle Data Guard per l'alta disponibilità.</block>
+  <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">19 ottobre 2026</block>
 </blocks>
