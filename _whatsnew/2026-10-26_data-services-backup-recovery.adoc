@@ -1,0 +1,45 @@
+= Miglioramenti dei carichi di lavoro Kubernetes
+:allow-uri-read: 
+
+
+
+
+[[kubernetes-workloads-enhancements]]
+=== Miglioramenti dei carichi di lavoro Kubernetes
+
+In questa versione, NetApp Backup and Recovery introduce i seguenti miglioramenti per i carichi di lavoro Kubernetes:
+
+* *Trident Protect 26.10*: Questa versione include Trident Protect 26.10.
+* *Supporto dei driver ontap-nas-economy e ontap-san-economy*: ora puoi proteggere i persistent volume claim (PVC) con provisioning eseguito tramite il driver NetApp Trident `ontap-nas-economy` (Qtree) e il driver `ontap-san-economy` (LUN). Quando proteggi i PVC utilizzando i driver economy, viene protetto l'intero FlexVol o l'intera LUN sottostante. Puoi ripristinare singoli PVC da questi backup.
+* *Avvisi compatibili con Kubernetes*: NetApp Console ora invia avvisi Kubernetes una volta per ogni applicazione Kubernetes anziché una volta per volume.
+* *Supporto per snapshot del gruppo di volumi*: ora puoi creare gruppi di volumi durante la definizione di un'applicazione Kubernetes. I gruppi di volumi ti consentono di creare snapshot di più volumi insieme come set coerente con i crash, garantendo la coerenza dei dati in tutti i volumi del gruppo.
+* *Supporto per lo storage a oggetti compatibile con S3*: ora puoi eseguire il backup delle risorse e dei dati delle applicazioni Kubernetes nello storage a oggetti compatibile con S3 aggiungendo le credenziali della destinazione di backup e configurando i criteri di protezione.
+
+
+Per dettagli sulla protezione dei carichi di lavoro Kubernetes, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Scopri come proteggere i carichi di lavoro Kubernetes con NetApp Backup and Recovery"].
+
+
+
+[[ontap-volumes-workloads-enhancements]]
+=== Miglioramenti dei carichi di lavoro di ONTAP Volumes
+
+In questa versione, NetApp Backup and Recovery introduce i seguenti miglioramenti per i carichi di lavoro ONTAP Volumes:
+
+* *Report di protezione*: NetApp Backup and Recovery ora supporta la creazione e il download di report estesi per i carichi di lavoro dei volumi ONTAP.
+* *Scegli se conservare i backup quando annulli la registrazione di un sistema ONTAP*: Quando annulli la registrazione di un sistema ONTAP da NetApp Backup and Recovery, ora puoi scegliere se eliminare i dati di cui è stato precedentemente eseguito il backup o mantenerli disponibili per il ripristino. La documentazione di NetApp Backup and Recovery ora include istruzioni per ripristinare i dati conservati dopo l'annullamento della registrazione del sistema.
+
+
+Per maggiori dettagli, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-backup-manage.html#unregister-netapp-backup-and-recovery-for-a-system["Annulla la registrazione di Backup and Recovery per un sistema"^].
+
+Per informazioni dettagliate sulla protezione dei carichi di lavoro di ONTAP Volumes, fare riferimento a  https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Scopri la protezione dei volumi ONTAP con NetApp Backup and Recovery"].
+
+
+
+[[oracle-database-workloads-enhancement]]
+=== Miglioramento dei carichi di lavoro di Oracle Database
+
+In questa versione, in questa versione, NetApp Backup and Recovery introduce il seguente miglioramento per i carichi di lavoro del database Oracle:
+
+*Ripristino in una posizione alternativa*: NetApp Backup and Recovery ora supporta il ripristino di un database Oracle in una posizione alternativa (un host registrato diverso).
+
+Per informazioni dettagliate sulla protezione dei carichi di lavoro Oracle Database, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["Scopri come proteggere i carichi di lavoro di Oracle Database con NetApp Backup and Recovery"].
